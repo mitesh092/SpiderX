@@ -1,5 +1,5 @@
 # SpiderX
-This Script Run for collecting past wifi passwords from Vistim windowa machine.
+This Script Run for collecting past wifi passwords from Vistim windows machine.
 HOW TO RUN :
 Step 1 : copy the directoty or folder (SpiderX) and paste into your pendrive.
 Step 2 : navigate ProjectX/ folder and run Setup.py file 
