@@ -34,7 +34,7 @@ def get_removable_drives():
 
 removable_drives = get_removable_drives()
 
-Convertcmd = f'pyinstaller --onefile {removable_drives[0]}//SpiderX//Config.py'
+Convertcmd = f'pyinstaller --onefile {removable_drives[0]}//SpiderX//SpiderX//Config.py'
 subprocess.run(Convertcmd, shell=True)
 
 
