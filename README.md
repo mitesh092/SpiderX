@@ -1,6 +1,6 @@
 # SpiderX
-This Script Run for collecting past wifi passwords from Vistim windows machine.
-<br>
+**This Script Run for collecting past wifi passwords from Vistim windows machine.**
+<br><br><br>
 **HOW TO RUN :**
 (Download Autorun pendrive maker Software) 
 Step 1 : copy the directoty or folder (SpiderX) and paste into your pendrive.
